@@ -538,7 +538,7 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1){
     }
 
 
-    .hero2-header h1 {padding:0; margin: 0;}
+    .hero2-header h1 {padding:0; margin: 0; font-size: 2rem !important;}
 .social-media-wrapper{ 
   background: url('images/nation.png') bottom no-repeat; 
   background-size:cover;
