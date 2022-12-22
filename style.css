@@ -1188,8 +1188,9 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1){
   and (max-device-width: 1024px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
+    .event-container{padding-left:40px; padding-right:40px}
     .logo{font-size: 20px;}
-    .hero-banner{min-height:612; background-size: contain;}
+    .hero-banner{min-height:537px; }
     .eventcolumn {
       width: 100%; padding: 0; font-size: 100%;
     }
@@ -1272,12 +1273,15 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1){
   and (max-device-width: 1366px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 1) {
+   
+
+    .hero-banner{min-height:650px; }
     .bio-wrapper-tatay {
       
       height: 500px;}
 
     .bio-wrapper-tatay .floater {
-      margin: -136px 0 0 -47px;
+      margin: -189px 0 0 -47px;
 
   }
   .bio1column {
@@ -1296,7 +1300,7 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1){
 
     .bio-wrapper-nanay{
       background-position-x: 86%; background-size:cover ;}
-
+     
     .eventcolumn {
       width: 50%; padding: 0 40px; font-size: 100%; 
      
