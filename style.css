@@ -19,16 +19,13 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-
-
 section{display:block;}
 
 .container{
-  width:1140px ;margin: 60px auto; 
+  width:980px ;margin: 60px auto; 
   align-content: center; 
   
 }
-
 
 blockquote{width: 68%;
   padding: 20px;
@@ -152,6 +149,7 @@ br{line-height:2rem;
 .h4, h4 {
     font-size: 1.5rem;
 }
+
 }
 .section{padding: 40px 0;}
 
@@ -284,7 +282,7 @@ input[type=checkbox]
  @media (max-width: 768px) {
   .navbar {width: 100%; padding:0 20px}
  
- 
+  .container{width: 100%;}
  .menu {    
   display:none;   
   position: absolute;   
