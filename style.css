@@ -85,7 +85,7 @@ h2{text-align: center;
     font-weight: 800; 
     font-size:2.2rem; 
     color:#2A3855; 
-    margin-bottom:40px;
+    margin-bottom:25px;
     text-transform: uppercase;
 }
 
@@ -973,7 +973,7 @@ clear: both;
 .bio1column h2{   font-size: 36px; 
 }
 .bio1column h2 span{ 
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: #2a3855;
   display: block;
   text-transform: none;
@@ -1035,6 +1035,12 @@ clear: both;
 @media (max-width: 991px){
   
   .bio1column  p{line-height: 1.7em; font-size: 16px;}
+  .bio1column {
+    float: left;
+    width: 43%;
+    padding:0;
+    height: 300px;
+  }
 
 }
 
@@ -1188,9 +1194,10 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1){
   and (max-device-width: 1024px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
+    .hero-header h1 {font-size:2rem; padding-top:40px}
     .event-container{padding-left:40px; padding-right:40px}
     .logo{font-size: 20px;}
-    .hero-banner{min-height:537px; }
+    .hero-banner{min-height:453px; background-size: 112%; }
     .eventcolumn {
       width: 100%; padding: 0; font-size: 100%;
     }
@@ -1275,7 +1282,7 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1){
   and (-webkit-min-device-pixel-ratio: 1) {
    
 
-    .hero-banner{min-height:650px; }
+    .hero-banner{min-height:560px; }
     .bio-wrapper-tatay {
       
       height: 500px;}
