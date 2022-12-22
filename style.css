@@ -516,7 +516,7 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1){
   font-weight: 400; 
   color: #2A3855;line-height: 1.3em;
 }
-.hero-header h1 {
+.hero-header h1, .hero2-header h1 {
     font-family: "Raleway", sans-serif; 
     text-align: center; 
     font-size: 48px; 
@@ -534,11 +534,11 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1){
     background-position-y: -40px;
        }
 .hero-header{
-   width: 100%; 
+   width: 100%; margin:0; 
     }
 
 
-
+    .hero2-header h1 {padding:0; margin: 0;}
 .social-media-wrapper{ 
   background: url('images/nation.png') bottom no-repeat; 
   background-size:cover;
