@@ -541,7 +541,7 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1){
   margin: 0 auto;
 }
 .smedia-icons { max-width: 1040px; margin: 0 auto;}
-.quote{line-height: 2.8em;}
+.quote{line-height: 2.8em; width: 92%; margin:0 auto;}
 .quote-icon {
   width: 65%;
   margin: 0 auto;
