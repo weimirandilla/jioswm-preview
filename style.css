@@ -1049,7 +1049,7 @@ clear: both;
   .bio1column  p{line-height: 1.7em; font-size: 16px;}
   .bio1column {
     float: left;
-    width: 43%;
+    
     padding:0;
     height: 300px;
   }
