@@ -1048,10 +1048,8 @@ clear: both;
   
   .bio1column  p{line-height: 1.7em; font-size: 16px;}
   .bio1column {
-    float: left;
-    
-    padding:0;
-    height: 300px;
+    float: left; 
+      height: 400px;
   }
 
 }
@@ -1459,6 +1457,8 @@ button{border:none;
   color:#ffffff;
   text-align: center;
 }
+
+.footer-wrapper h2{ color: #ffffff;}
 .smedia-icons-footer { max-width: 563px; margin: 0 auto 50px;}
 .smedia-icons-footer img {     
   width: 3rem;
