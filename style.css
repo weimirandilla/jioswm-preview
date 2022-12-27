@@ -1044,15 +1044,7 @@ clear: both;
    
 
   
-@media (max-width: 991px){
-  
-  .bio1column  p{line-height: 1.7em; font-size: 16px;}
-  .bio1column {
-    float: left; 
-      height: 400px;
-  }
 
-}
 
 /*Nanay Bio */
 
@@ -1078,6 +1070,8 @@ clear: both;
 .bio2column h2{margin-top:01px ; text-align: left;  font-size: 2vw; }
 .bio-content {padding:10px 0 0 0;margin-left: 20%}
 
+
+
 @media screen and (max-width: 600px) {
  
   .bio-wrapper-nanay{background-image: none; height: 600px; margin-top: 0;}
@@ -1090,6 +1084,63 @@ clear: both;
   .bio2column  p {line-height: 1.7em; font-size: 16px;}
 }
 
+@media screen and (min-width: 667px){
+  .bio-wrapper-tatay {
+
+    height: 382px;}
+
+  .bio-wrapper-tatay .floater {
+    margin:10px 0 0 0; }
+
+    .radio-programs-wrapper {
+      padding: 60px 0 63px 0;
+     
+  }
+  .bio1column {
+    float: left;
+    width: 46%;padding: 0;}
+    .bio1column p {
+      line-height: 1.3em;
+  }
+  .bio1column h2 {
+    
+    text-align: left;
+    font-size: 1rem;
+}
+.bio1column h2 span {
+  font-size: 1rem;}
+
+  .bio-wrapper-nanay {
+    background: url(images/nanay-bio.jpg) topno-repeat;
+    height: 436px;
+    background-size:cover;
+    background-position: 71%;
+  }
+  .bio2column{  
+    width: 52%; 
+    height: 553px;
+    background-size: cover;
+    background-position-x: 71%;
+    background-position: top right}
+  .bio-content {
+      padding: 0px 0 0 0;
+      margin-left: -40rem;
+  }
+  .bio2column p {
+    line-height: 1.3em;
+}
+.bio2column h2 {
+
+  font-size: 1rem;
+}
+}
+
+@media screen and (min-width:844px) and (max-device-width: 1024px) 
+and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1){
+
+  .bio-wrapper-tatay{ height: 380px;}
+  .content{width: 43%; padding: 0;}
+}
 
 .bio2row:after {
   content: "";
@@ -1180,7 +1231,7 @@ clear: both;
 
 @media only screen  
 and (min-device-width: 600px) 
-and (max-device-width: 1024px) 
+and (max-device-width: 844px) 
 and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1){
   .eventcolumn {
     width: 100% !important; 
@@ -1192,8 +1243,8 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1){
   .ministries-content{width: 100%;}
   .bio-wrapper-tatay{
     background-image: url("images/tatay-bg.png"); 
-    height: 456px; 
-   /* margin-top: 310px;*/
+    /*height: 456px; 
+    margin-top: 310px;*/
   }
 }
   
